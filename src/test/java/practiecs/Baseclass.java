@@ -29,7 +29,7 @@ public class Baseclass {
     	switch(br.toLowerCase()) {
     	case "chrome":    	driver = new ChromeDriver(); break; 
     	case "edge":    	driver = new EdgeDriver() ;break;
-    	case "firefox":    	driver = new FirefoxDriver() ;break;
+    	//case "firefox":    	driver = new FirefoxDriver() ;break;
     	default:System.out.println("inavlid browser name");return;    	
     	}
     	

@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="facebook-chrome">
-  <parameter name="browser" value="Chrome"></parameter>
-      <classes>
-      <class name="practice.Dynamicwebtable"/>
+  <test thread-count="5" name="chromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.Searchfunctionality"/>
     </classes>
-
-  </test> <!-- facebook -->
-    <test thread-count="5" name="facebook-edge">
-  <parameter name="browser" value="Edge"></parameter>
-      <classes>
-      <class name="practice.Dynamicwebtable"/>
+  </test> <!-- Test -->
+    <test thread-count="5" name="edgeTest">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="tests.Searchfunctionality"/>
     </classes>
-    
-  </test> <!-- facebook -->
-  <test thread-count="5" name="facebook-firefox">
-  <parameter name="browser" value="Firefox"></parameter>
-      <classes>
-      <class name="practice.Dynamicwebtable"/>
-    </classes>
-  
-  </test> <!-- facebook -->
+  </test> <!-- Test -->
 
 </suite> <!-- Suite -->
